@@ -30,16 +30,16 @@ header ul a {
     text-decoration: none;
     color: white;
 }
-.container {
+/* .container {
     display: flex;
-}
-.image {
+} */
+/* .image {
     margin-right: 20px;
-}
-.image img {
+} */
+/* .image img {
     height: 550px;
     width: 450px;
-}
+} */
 .firstLi {
     margin-right: 40px;
 }
@@ -47,7 +47,8 @@ header ul a {
     margin-top: 20px;
 }
 .myabout {
-    width: 600px;
+    /* width: 600px; */
+    margin: 20px 0 0 20px;
 }
 .about .content h2 {
     font-weight: 700;
@@ -74,4 +75,20 @@ header ul a {
     margin-right: 5px;
     color: var(--accent-color);
     line-height: 0;
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+    }
+    .image img {
+        height: 550px;
+        width: 450px;
+    }
+    .myabout {
+        width: 600px;
+    }
+    .image {
+        margin-right: 20px;
+    }
 }
