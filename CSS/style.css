@@ -42,3 +42,6 @@ main {
 .myname {
     padding: 200px 0;
 }
+h1 {
+    border-bottom: 2px solid blue;
+}
