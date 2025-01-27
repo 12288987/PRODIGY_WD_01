@@ -30,15 +30,3 @@ header ul a {
     text-decoration: none;
     color: white;
 }
-main {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    color: white;
-}
-.img img {
-    height: 550px;
-}
-.myname {
-    padding: 200px 0;
-}
